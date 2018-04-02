@@ -4,7 +4,14 @@
  * and open the template in the editor.
  */
 
+function openNav () {
+    $getScript("js/sidenav.js", openNav);
+}
 
-$getScript("js/sidenav.js", function () {
-    alert("Sidenav script loaded");
+$(function () {
+    $.getScript("//js/sidenav.js", function () {
+        openNav();
+        closeNav();
+        console.log("Load was performed.");
+    });
 });
