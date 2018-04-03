@@ -4,8 +4,12 @@
  * and open the template in the editor.
  */
 
+$(function(){
+   $("#nav").load("nav.html"); 
+});
+
 function openNav () {
-    $getScript("js/sidenav.js", openNav);
+    $.getScript("js/sidenav.js", openNav);
 }
 
 $(function () {
@@ -15,3 +19,4 @@ $(function () {
         console.log("Load was performed.");
     });
 });
+
