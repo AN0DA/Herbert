@@ -48,8 +48,8 @@
 
 
 .sideNav_hidden {
-height: 80%; /* 100% Full-height */
-    width: 50px; /* 0 width - change this with JavaScript */
+    height: 100%; /* 100% Full-height */
+    width: 5%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 2; /* Stay on top */
     top: 20%; /* Stay at the top */

@@ -1,3 +1,8 @@
 body {
     background-image: url("../graphic/spiration-light.png");
 }
+
+.main {
+    top: 20%;
+    margin-left: 20%;
+}

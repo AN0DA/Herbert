@@ -12,22 +12,25 @@
         <meta name="theme-color" content="#FED768">
         
         <link rel="stylesheet" href="style.css">
-       
+        <link rel="stylesheet" href="w3.css">
         <script src="jquery-3.3.1.min.js"></script>
-        
-        <script>
-            $("#nav").load("nav.html #body");
-        </script>
+        <script src="js/sidenav.js"></script>
+       
+        <link rel="import" href="nav.html">
     </head>
     
     
     <body>
-        <div id="nav"></div>
-        
-        <a href="nav.html">nav</a>
+        <script>
+            var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.nav');
+
+    document.body.appendChild(el.cloneNode(true));
+  </script>
         
         <div id="main" class="main">
-            
+            <a href="nav.html">nav</a>
         </div>
         
     </body>
