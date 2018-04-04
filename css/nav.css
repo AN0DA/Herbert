@@ -13,43 +13,50 @@
 }
 
 .logo{
-    width: 80%;
-    max-height: 80%;
-    margin: auto;
+    width: 90%;
+    height: 90%;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     vertical-align: middle;
     display: block;
-    position: floating;
+    position: absolute;
     -webkit-filter: invert(80.75%);
     
 }
 
 .logo_div {
-    width: 15%;
+    width: 13vw;
+    height: 13vw;
     float: left;
     left: 0;
     position: fixed;
     background: url("../graphic/spiration-dark.png");
-    border-style: none groove groove none;
-    border-width: medium;
+    border-style: none groove none none;
+    border-width: thin;
     border-color: #cecece;
+    transition: 0.5s;
 }
 
 
 
 .title {
-    width: 100%;
-    height: 48%;
+    width: 87vw;
+    height: 6vw;
     font-family: 'Vollkorn', serif;
     font-size: 3.5vw;
     float: left;
+    padding-top: 0.5vw; 
     text-align: center;
     border-style: none none groove none;
     border-width: thick;
     border-color: #cecece;
-    left: 20%;
-    margin-left: 15%;
+    margin-left: 13vw;
     display: block;
     background: url("../graphic/halftone-yellow.png");
+    transition: 0.5s;
 }
 .title_text {
     display: inline-block;

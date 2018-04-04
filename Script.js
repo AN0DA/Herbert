@@ -1,22 +1,25 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-$(function(){
-   $("#nav").load("nav.html"); 
-});
-
-function openNav () {
-    $.getScript("js/sidenav.js", openNav);
+function openNav() {
+    document.getElementById("sideNav").style.width = "18vw";
+    document.getElementById("sideNav").style.top = "18vw";
+    document.getElementById("sideNav_hidden").style.width = "0";
+    
+    document.getElementById("logo_div").style.width = "18vw";
+    document.getElementById("logo_div").style.height = "18vw";
+    
+    document.getElementById("title").style.marginLeft = "18vw";
+    
+    document.getElementById("main").style.marginLeft = "18vw";
 }
 
-$(function () {
-    $.getScript("//js/sidenav.js", function () {
-        openNav();
-        closeNav();
-        console.log("Load was performed.");
-    });
-});
-
+function closeNav() {
+    document.getElementById("sideNav").style.width = "0";
+    document.getElementById("sideNav").style.top = "13vw";
+    document.getElementById("sideNav_hidden").style.width = "5vw";
+    
+    document.getElementById("logo_div").style.width = "13vw";
+    document.getElementById("logo_div").style.height = "13vw";
+    
+    document.getElementById("title").style.marginLeft = "13vw";
+    
+    document.getElementById("main").style.marginLeft = "0";
+}

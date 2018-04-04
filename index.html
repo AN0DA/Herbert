@@ -14,24 +14,44 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="w3.css">
         <script src="jquery-3.3.1.min.js"></script>
-        <script src="js/sidenav.js"></script>
+        <script src="script.js"></script>
        
         <link rel="import" href="nav.html">
     </head>
     
     
     <body>
-        <script>
-            var link = document.querySelector('link[rel="import"]');
+<script> <!-- nav -->
+    var link = document.querySelector('link[rel="import"]');
     var content = link.import;
     var el = content.querySelector('.nav');
 
     document.body.appendChild(el.cloneNode(true));
-  </script>
+</script>
         
-        <div id="main" class="main">
-            <a href="nav.html">nav</a>
-        </div>
-        
+<div id="subtitle" class="subtitle">
+    
+</div>        
+  
+<div id="main" class="main">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim tempus nunc sit amet condimentum. Sed iaculis sem vitae felis scelerisque, quis hendrerit orci eleifend. In hac habitasse platea dictumst. Proin eleifend mauris sit amet sagittis rutrum. Mauris placerat, arcu eu suscipit faucibus, nibh felis hendrerit urna, a accumsan ex est non tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean condimentum lacus posuere lectus eleifend interdum. Quisque metus est, volutpat non dolor nec, pretium auctor leo. Phasellus hendrerit massa ut sodales gravida. Quisque tempor lorem eget neque faucibus porttitor. Proin non quam quis justo porttitor sagittis eu et metus.
+
+Mauris gravida ex sit amet dui luctus, non imperdiet purus finibus. Nunc lacus felis, scelerisque a suscipit sed, semper sed libero. Curabitur fringilla justo erat, vitae scelerisque ante euismod iaculis. Suspendisse dignissim nibh at libero porttitor suscipit. Fusce tincidunt posuere faucibus. Fusce pretium dignissim ante, fringilla condimentum dui rutrum eu. Sed at ultricies tortor. Sed euismod urna id lacinia pulvinar.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut aliquam convallis leo, suscipit eleifend diam pretium eget. Proin porta massa a nibh luctus condimentum. Sed vel magna vitae est iaculis volutpat. Aliquam vestibulum malesuada tristique. Aenean rhoncus sodales ante vel gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas fringilla turpis urna. Mauris luctus, diam non molestie blandit, risus sapien tempus est, vel placerat nibh dui quis sem. Suspendisse sed urna mollis, mollis quam ut, porta risus. Vestibulum bibendum nunc ac felis tempor, eu sodales orci faucibus. Suspendisse porttitor feugiat lacus, eget luctus dolor suscipit ornare. Nunc rhoncus leo id nulla viverra gravida. Ut sit amet tortor sit amet mauris feugiat imperdiet.
+
+Fusce eget rutrum odio. Nullam mauris nunc, semper sit amet dui a, dictum gravida tortor. Donec ornare, lacus sit amet efficitur efficitur, magna dolor pharetra mi, id iaculis nibh leo at nulla. Suspendisse orci urna, porta non auctor vitae, rutrum in ex. Pellentesque at urna sodales, tempus elit id, convallis sapien. Pellentesque sodales nibh eget condimentum cursus. In sed semper arcu.
+
+Integer eget elementum tortor. Aliquam sed dolor ante. Vivamus fermentum eget lorem vitae pulvinar. Maecenas aliquam consequat sapien, quis laoreet lacus sodales vitae. Integer sit amet turpis vitae lectus semper facilisis. Nulla vitae orci urna. Quisque gravida massa ut ullamcorper ultrices. Pellentesque gravida non sem nec efficitur. Duis faucibus condimentum egestas. Donec sollicitudin felis a massa faucibus luctus. Nulla congue eu purus sit amet lacinia. Vestibulum sit amet pretium diam, rhoncus rutrum ante. Ut in ultrices orci, id egestas libero. Morbi felis purus, consequat sit amet lorem nec, malesuada blandit dui. Etiam consectetur odio vitae sem pretium, quis ultrices ante suscipit.
+</div>
+
+<script> <!-- footer -->
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.footer');
+
+    document.body.appendChild(el.cloneNode(true));
+</script>
+
     </body>
 </html>
