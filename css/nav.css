@@ -38,6 +38,7 @@
     border-width: thin;
     border-color: #cecece;
     transition: 0.5s;
+    border-radius: 0 0 10px 0;
 }
 
 
@@ -45,7 +46,7 @@
 .title {
     width: 87vw;
     height: 6vw;
-    font-family: 'Vollkorn', serif;
+    font-family: FranklinGothic;
     font-size: 3.5vw;
     float: left;
     padding-top: 0.5vw; 
@@ -62,4 +63,5 @@
     display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  color: whitesmoke;
 }

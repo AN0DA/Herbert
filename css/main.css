@@ -3,15 +3,20 @@ body {
 }
 
 .main {
-    margin-top: 10vw;
-    margin-left: 19.5vw;
+    margin-top: 0.5vw;
+    margin-left: 20vw;
     margin-right: 7vw;
-    height: 100%;
     width: 73vw;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    //filter: blur(2px);
     z-index: 5;
+    background-color: rgba(245, 245, 245, 0.68);
+    border-radius: 20px;
+}
+
+.subtitle {
+    width: 87vw;
+    height: 5vw;
+    margin-top: 6vw;
+    margin-left: 13vw;
+    background-color: red;
 }
