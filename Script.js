@@ -22,7 +22,6 @@ function closeNav() {
     
     document.getElementById("title").style.marginLeft = "13vw";
     
-<<<<<<< HEAD:Script.js
     document.getElementById("main").style.marginLeft = "18.5vw";
 }
 
@@ -43,10 +42,3 @@ $(document).ready(function() {
 });
 
 */
-=======
-    document.getElementById("main").style.marginLeft = "0";
-}
-<<<<<<< HEAD:Script.js
->>>>>>> 4785734f949daf5993519868ac56576a18f8e3aa:script.js
-=======
->>>>>>> 4785734f949daf5993519868ac56576a18f8e3aa:script.js
