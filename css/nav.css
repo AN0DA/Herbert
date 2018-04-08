@@ -23,8 +23,8 @@
     vertical-align: middle;
     display: block;
     position: absolute;
-    -webkit-filter: invert(80.75%);
-    
+    //-webkit-filter: invert(80.75%);
+    fill: #eae4e3;
 }
 
 .logo_div {
@@ -33,10 +33,7 @@
     float: left;
     left: 0;
     position: fixed;
-    background: url("../graphic/spiration-dark.png");
-    border-style: none groove none none;
-    border-width: thin;
-    border-color: #cecece;
+    background: url("../graphic/ep_naturalblack.png");
     transition: 0.5s;
     border-radius: 0 0 10px 0;
 }
@@ -46,22 +43,23 @@
 .title {
     width: 87vw;
     height: 6vw;
-    font-family: FranklinGothic;
     font-size: 3.5vw;
     float: left;
     padding-top: 0.5vw; 
     text-align: center;
-    border-style: none none groove none;
-    border-width: thick;
-    border-color: #cecece;
+    /*border-style: none none solid none;
+    border-width: thin;
+    border-color: #eae4e3;*/
     margin-left: 13vw;
     display: block;
-    background: url("../graphic/halftone-yellow.png");
+    background: url("../graphic/tweed.png");
     transition: 0.5s;
 }
 .title_text {
     display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  color: whitesmoke;
+  color: #eae4e3;
+  font-family: fogtwo;
+  text-shadow: 0.13vw 0.13vw 0.2vw #D72945;
 }

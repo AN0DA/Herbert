@@ -1,3 +1,16 @@
 @import "css/main.css";
 @import "css/sidenav.css";
 @import "css/nav.css";
+@import "css/footer.css";
+
+
+@font-face {
+    font-family: znikomit;
+    src: url (font/znikomit/znikomit.otf);
+    
+}
+
+@font-face {
+    font-family: fogtwo;
+    src: url (font/Fogtwo/FogtwoNo5.otf);
+}

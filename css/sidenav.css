@@ -5,7 +5,8 @@
     z-index: 1;
     top: 13vw;
     left: 0;
-    background-color: #3c3c3d;
+    background-color: #eae4e3;
+    background-image: url(../graphic/ep_naturalwhite.png);
     overflow-x: hidden;
     padding-top: 60px; /* !!! */
     transition: 0.5s;
@@ -16,21 +17,21 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1.7vw;
-    color: #cecece;
+    color: #0e141b;
     display: block;
     transition: 0.3s;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #FED04F;
+    color: #D72945;
 }
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    right: 1.7vw;
+    font-size: 2.7vw;
+    margin-left: 3.5vw;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -41,18 +42,25 @@
 
 
 .sideNav_hidden {
-    height: 87vw; /* 100% Full-height */
+    height: 100%; /* 100% Full-height */
     width: 5vw; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 2; /* Stay on top */
     top: 13vw; /* Stay at the top */
     left: 0;
+    padding-top: 0.5vw;
     text-align: center;
-    background-color: #cecece; /* Black*/
+    background-color: #eae4e3; /* Black*/
+    background-image: url("../graphic/pink dust.png");
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+.nav_button {
+    font-size: 2.7vw;
+    cursor: pointer;
+    color: #eae4e3;
+}
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

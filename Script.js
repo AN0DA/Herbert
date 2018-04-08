@@ -8,6 +8,7 @@ function openNav() {
     document.getElementById("logo_div").style.borderRadius = "0";
     
     document.getElementById("title").style.marginLeft = "18vw";
+    document.getElementById("subtitle").style.marginLeft = "18vw";
     
     document.getElementById("main").style.marginLeft = "23.5vw";
 }
@@ -21,6 +22,7 @@ function closeNav() {
     document.getElementById("logo_div").style.borderRadius = "0 0 10px 0";
     
     document.getElementById("title").style.marginLeft = "13vw";
+    document.getElementById("subtitle").style.marginLeft = "13vw";
     
     document.getElementById("main").style.marginLeft = "18.5vw";
 }
