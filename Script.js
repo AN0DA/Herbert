@@ -10,7 +10,9 @@ function openNav() {
     document.getElementById("title").style.marginLeft = "18vw";
     document.getElementById("subtitle").style.marginLeft = "18vw";
     
-    document.getElementById("main").style.marginLeft = "23.5vw";
+    document.getElementById("main").style.Left = "23.5vw";
+    
+    document.getElementById("footer").style.marginLeft = "5vw";
 }
 function closeNav() {
     document.getElementById("sideNav").style.width = "0";
@@ -22,9 +24,11 @@ function closeNav() {
     document.getElementById("logo_div").style.borderRadius = "0 0 10px 0";
     
     document.getElementById("title").style.marginLeft = "13vw";
-    document.getElementById("subtitle").style.marginLeft = "13vw";
+    document.getElementById("subtitle").style.left = "13vw";
     
     document.getElementById("main").style.marginLeft = "18.5vw";
+    
+    document.getElementById("footer").style.marginLeft = "0";
 }
 
 /* zmiana nav po zescrolowaniu, do zrobienia w wolnej chwili 

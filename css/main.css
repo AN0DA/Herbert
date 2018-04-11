@@ -13,10 +13,10 @@ body {
     border-radius: 20px;
 }
 
-.subtitle {
+/*.subtitle {
     width: 87vw;
     height: 5vw;
-    margin-top: 6vw;
+    top: 6vw;
     margin-left: 13vw;
     background-image: url("../graphic/pixel_weave.png");   
     font-size: 3vw;
@@ -26,4 +26,5 @@ body {
     color: #0E141B;
     font-family: znikomit;
     text-shadow: 0.05vw 0.01vw 0.03vw #0E141B;
-}
+    position: fixed;
+}*/

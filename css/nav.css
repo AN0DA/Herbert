@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+.nav{
+    min-height: 100%;
+    position: relative;
+}
 
 .top {
     position: fixed;
@@ -44,12 +48,9 @@
     width: 87vw;
     height: 6vw;
     font-size: 3.5vw;
-    float: left;
+    position: fixed;
     padding-top: 0.5vw; 
     text-align: center;
-    /*border-style: none none solid none;
-    border-width: thin;
-    border-color: #eae4e3;*/
     margin-left: 13vw;
     display: block;
     background: url("../graphic/tweed.png");
@@ -62,4 +63,26 @@
   color: #eae4e3;
   font-family: fogtwo;
   text-shadow: 0.13vw 0.13vw 0.2vw #D72945;
+}
+
+.subtitle {
+    width: 87vw;
+    height: 5vw;
+    font-size: 3vw;
+    position: fixed;
+    padding-top: 0.4vw; 
+    text-align: center;
+    left: 13vw;
+    top: 6vw;
+    display: block;
+    background: url("../graphic/pixel_weave.png");
+    transition: 0.5s;
+}
+.subtitle_text {
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: #0e141b;
+  font-family: znikomit;
+  text-shadow: 0.05vw 0.01vw 0.03vw #0e141b;
 }
