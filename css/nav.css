@@ -2,15 +2,14 @@
     box-sizing: border-box;
 }
 .nav{
-    min-height: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .top {
     position: fixed;
     left: 0;
     top: 0;
-    height: 20%;
+    height: auto;
     width: 100%;
     justify-content: flex-start;    
     display: flex;
@@ -27,7 +26,6 @@
     vertical-align: middle;
     display: block;
     position: absolute;
-    //-webkit-filter: invert(80.75%);
     fill: #eae4e3;
 }
 

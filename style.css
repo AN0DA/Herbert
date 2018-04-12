@@ -14,3 +14,10 @@
     font-family: fogtwo;
     src: url (font/Fogtwo/FogtwoNo5.otf);
 }
+
+
+
+body {
+    margin: 0;
+    //overflow-x: hidden;
+}

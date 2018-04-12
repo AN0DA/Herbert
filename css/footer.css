@@ -2,17 +2,16 @@
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-	width: 95%;
-        left: 5vw;
+	max-width: 95vw;
+        margin-left: 5vw;
 	text-align: left;
 	font: normal 16px sans-serif;
-        z-index: -3;
+        //z-index: -3;
 	padding: 30px 50px;
-	//margin-top: 80px;
-        
-        position: absolute;
-        bottom: 0;
-        right: 0;
+	display: block;
+        position: relative;
+        margin-right: 0;
+        transition: 0.5s;
 }
 
 .footer .footer-left p{
@@ -42,6 +41,7 @@
 	float: right;
 	margin-top: 6px;
 	max-width: 180px;
+        
 }
 
 .footer .footer-right a{
@@ -50,12 +50,12 @@
 	height: 35px;
 	background-color:  #33383b;
 	border-radius: 2px;
-
+        vertical-align: middle;
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
+        padding-top: 8px;
 	margin-left: 3px;
 }
 
