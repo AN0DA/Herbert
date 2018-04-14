@@ -7,9 +7,26 @@ body {
     margin-left: 21.5vw;
     //margin-right: 7vw;
     width: 70vw;
+    
     padding: 10px;
     z-index: -5;
     background-color: rgba(210, 205, 204, 0.3);
     border-radius: 20px;
     position: relative;
+}
+
+blockquote {
+    font-family: "fretigo-pro", serif;
+    color: #811829;
+    font-size: 2vw;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+p {
+    align: right;
+    padding: inherit;
+    font-family: inherit;
+    color: inherit;
 }

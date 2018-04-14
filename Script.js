@@ -32,9 +32,31 @@ function closeNav() {
     document.getElementById("footer").style.marginLeft = "5vw";
 }
 
-function subtitle() {
-    
+
+(function($) {
+    $.fn.hasScrollBar = function() {
+        return this.get(0) ? this.get(0).scrollHeight > this.innerHeight() : false;
+    }
+})(jQuery);
+
+
+
+/*
+function footerAlign() {
+  var mainHeight = $('main').outerHeight();
+  
+  $('body').css('padding-bottom', footerHeight);
+  //$('footer').css('height', footerHeight);
 }
+
+
+$(document).ready(function(){
+  footerAlign();
+});
+
+$( window ).resize(function() {
+  footerAlign();
+});
 
 /* zmiana nav po zescrolowaniu, do zrobienia w wolnej chwili 
  * 

@@ -1,13 +1,18 @@
+/*CSS files*/
+
 @import "css/main.css";
 @import "css/sidenav.css";
 @import "css/nav.css";
 @import "css/footer.css";
 
 
+/*fonts*/
+
+@import url("https://use.typekit.net/ehf1uex.css");
+
 @font-face {
     font-family: znikomit;
-    src: url (font/znikomit/znikomit.otf);
-    
+    src: url (font/znikomit/znikomit.otf);  
 }
 
 @font-face {
@@ -16,6 +21,7 @@
 }
 
 
+/*global*/
 
 body {
     margin: 0;
