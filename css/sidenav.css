@@ -1,5 +1,5 @@
 .sidenav {
-    height: 87vw;
+    height: 100%;
     width: 0; /*js*/
     position: fixed;
     z-index: 1;

@@ -10,7 +10,7 @@ function openNav() {
     document.getElementById("title").style.marginLeft = "18vw";
     document.getElementById("subtitle").style.left = "18vw";
     
-    document.getElementById("main").style.marginLeft = "23.5vw";
+    document.getElementById("main").style.marginLeft = "24vw";
     
     document.getElementById("footer").style.marginLeft = "18vw";
     
@@ -27,9 +27,13 @@ function closeNav() {
     document.getElementById("title").style.marginLeft = "13vw";
     document.getElementById("subtitle").style.left = "13vw";
     
-    document.getElementById("main").style.marginLeft = "18.5vw";
+    document.getElementById("main").style.marginLeft = "21.5vw";
     
     document.getElementById("footer").style.marginLeft = "5vw";
+}
+
+function subtitle() {
+    
 }
 
 /* zmiana nav po zescrolowaniu, do zrobienia w wolnej chwili 

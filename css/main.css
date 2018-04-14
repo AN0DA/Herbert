@@ -4,9 +4,9 @@ body {
 
 .main {
     margin-top: 12vw;
-    margin-left: 20vw;
-    margin-right: 7vw;
-    width: 73vw;
+    margin-left: 21.5vw;
+    //margin-right: 7vw;
+    width: 70vw;
     padding: 10px;
     z-index: -5;
     background-color: rgba(210, 205, 204, 0.3);

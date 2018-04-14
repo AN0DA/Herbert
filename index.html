@@ -13,13 +13,19 @@
         <meta name="theme-color" content="#D72945">
         
         <link rel="stylesheet" href="style.css">
+        
+        <link rel="import" href="nav.html">
+        
         <script src="jquery-3.3.1.min.js"></script>
         <script src="Script.js"></script>
-       
-        <link rel="import" href="nav.html">
+        <script>
+            window.onload = function() {
+                document.getElementById("subtitle_text").innerHTML = "Zacznijmy od konturu...";
+            };
+        </script>    
     </head>
-    
-    
+
+   
     <body>
 <script> <!-- nav -->
     var link = document.querySelector('link[rel="import"]');
