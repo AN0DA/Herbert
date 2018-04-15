@@ -12,6 +12,7 @@
     display: flex;
 }
 
+
 .logo{
     width: 90%;
     height: 90%;
@@ -38,7 +39,6 @@
 }
 
 
-
 .title {
     width: 87vw;
     height: 6vw;
@@ -59,6 +59,7 @@
     font-family: fogtwo;
     text-shadow: 0.13vw 0.13vw 0.2vw #D72945;
 }
+
 
 .subtitle {
     width: 87vw;
@@ -81,6 +82,8 @@
     font-family: znikomit;
     text-shadow: 0.05vw 0.01vw 0.03vw #0e141b;
 }
+
+
 
 .subtitle_scroll {
     height: 3.5vw;

@@ -13,8 +13,8 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "24vw";
 
     document.getElementById("footer").style.marginLeft = "18vw";
-
 }
+
 function closeNav() {
     document.getElementById("sideNav").style.width = "0";
     document.getElementById("sideNav").style.top = "13vw";
@@ -34,9 +34,6 @@ function closeNav() {
 
 
 
- 
-  //zmiana nav po zescrolowaniu, do zrobienia w wolnej chwili 
- 
  $(document).ready(function() {
  
  $(window).scroll(function () {
@@ -52,38 +49,3 @@ function closeNav() {
  }
  });
  });
- 
- 
-
-
-
-
-
-
-
-
-/*
-(function ($) {
-    $.fn.hasScrollBar = function () {
-        return this.get(0) ? this.get(0).scrollHeight > this.innerHeight() : false;
-    }
-})(jQuery);
-
-
-
-/*
- function footerAlign() {
- var mainHeight = $('main').outerHeight();
- 
- $('body').css('padding-bottom', footerHeight);
- //$('footer').css('height', footerHeight);
- }
- 
- 
- $(document).ready(function(){
- footerAlign();
- });
- 
- $( window ).resize(function() {
- footerAlign();
- });*/

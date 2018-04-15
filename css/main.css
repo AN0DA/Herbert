@@ -3,11 +3,11 @@
     margin-left: 21.5vw;
     font-family: Vollkorn;
     width: 70vw;
-font-size: 1.3em;
+    font-size: 1.3em;
     padding: 10px;
     z-index: -5;
     background-color: rgba(210, 205, 204, 0.3);
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     position: relative;
     text-align: justify;
 }
@@ -35,7 +35,7 @@ blockquote {
     margin-left: 10vw;
     align-content: center;
     border-radius: 1000px;
-    
+
 }
 
 .main span {
