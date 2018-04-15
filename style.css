@@ -10,6 +10,8 @@
 
 @import url("https://use.typekit.net/ehf1uex.css");
 
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i&amp;subset=latin-ext");
+
 @font-face {
     font-family: znikomit;
     src: url (font/znikomit/znikomit.otf);  
@@ -23,6 +25,11 @@
 
 /*global*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    background-image: url("graphic/sayagata.png");
 }

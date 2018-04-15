@@ -4,70 +4,79 @@
         <meta charset="UTF-8">
         <meta name="autor" content="Mikołaj Kaczmarek">
         <meta name="keywords" content="">
-        
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117579266-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117579266-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-  gtag('config', 'UA-117579266-2');
-</script>
+            gtag('config', 'UA-117579266-2');
+        </script>
 
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         
-        <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-        
+
         <link rel="shortcut icon" href="favicon.ico" />
         <meta name="theme-color" content="#D72945">
-        
+
         <link rel="stylesheet" href="style.css">
-        
+
         <link rel="import" href="nav.html">
-        
+
         <script src="jquery-3.3.1.min.js"></script>
         <script src="Script.js"></script>
-         
+
+        <script>
+            window.onload = function () {
+                document.getElementById("subtitle_text").innerHTML = "Zacznijmy od konturu...";
+                document.title = "Z. Herbert - strona główna";
+            };
+        </script> 
     </head>
 
-   
+
     <body>
-        <script>
-            document.getElementById("subtitle_text").innerHTML = "Zacznijmy od konturu...";
-            document.title = "Z. Herbert - strona główna";
-        </script> 
-        
-        <script> <!-- nav -->
+
+
+        <script><!-- nav -->
             var link = document.querySelector('link[rel="import"]');
             var content = link.import;
             var el = content.querySelector('.nav');
 
             document.body.appendChild(el.cloneNode(true));
         </script>
-   
-
-
-<div id="main" class="main">       
-    <blockquote cite="https://pl.wikipedia.org/wiki/Zbigniew_Herbert">
-        <b>Zbigniew Bolesław Ryszard Herbert</b> <i>(ur. 29 października 1924 we Lwowie, zm. 28 lipca 1998 w Warszawie)</i> – polski poeta, eseista, dramaturg, twórca słynnego cyklu poetyckiego <i>„Pan Cogito”</i>, autor słuchowisk; kawaler Orderu Orła Białego. Z wykształcenia ekonomista, prawnik i filozof.
-        
-Laureat ponad dwudziestu nagród literackich. Od końca lat 60. XX w. był jednym z najpoważniejszych pretendentów do Literackiej Nagrody Nobla. Jego książki zostały przetłumaczone na 38 języków.
-<p class="autor">~Wikipedia</p>
-    </blockquote>
-</div>
 
 
 
-<script> <!-- footer -->
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
-    var el = content.querySelector('.footer');
+        <div id="main" class="main">       
+            
+            <blockquote cite="https://pl.wikipedia.org/wiki/Zbigniew_Herbert">
+                <strong>Zbigniew Bolesław Ryszard Herbert</strong> <i><br>(ur. 29 października 1924 we Lwowie, zm. 28 lipca 1998 w Warszawie)</i> – polski poeta, eseista, dramaturg, twórca słynnego cyklu poetyckiego <i>„Pan Cogito”</i>, autor słuchowisk; kawaler Orderu Orła Białego. Z wykształcenia ekonomista, prawnik i filozof.
+                <br>
+                Laureat ponad dwudziestu nagród literackich. Od końca lat 60. XX w. był jednym z najpoważniejszych pretendentów do Literackiej Nagrody Nobla. Jego książki zostały przetłumaczone na 38 języków.
 
-    document.body.appendChild(el.cloneNode(true));
-</script>
+            </blockquote>
+            <div class="autor">~Wikipedia</div>
+            <img src="subpage/galeria/rysunek.jpg" class="portret" alt="Zbigniew Herbert">
+            
+        </div>
+
+
+
+        <script><!-- footer -->
+            var link = document.querySelector('link[rel="import"]');
+            var content = link.import;
+            var el = content.querySelector('.footer');
+
+            document.body.appendChild(el.cloneNode(true));
+        </script>
 
     </body>
 </html>

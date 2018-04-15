@@ -1,32 +1,53 @@
-body {
-    background-image: url("../graphic/sayagata.png");
-}
-
 .main {
     margin-top: 12vw;
     margin-left: 21.5vw;
-    //margin-right: 7vw;
+    font-family: Vollkorn;
     width: 70vw;
-    
+font-size: 1.3em;
     padding: 10px;
     z-index: -5;
     background-color: rgba(210, 205, 204, 0.3);
     border-radius: 20px;
     position: relative;
+    text-align: justify;
 }
 
 blockquote {
-    font-family: "fretigo-pro", serif;
+    font-family: "fertigo-pro", serif;
     color: #811829;
-    font-size: 2vw;
+    font-size: 1.8em;
     text-align: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
-p {
-    align: right;
-    padding: inherit;
-    font-family: inherit;
-    color: inherit;
+.autor {
+    text-align: right;
+    padding-right: 6vw;
+    font-size: 2em;
+    font-family: "fertigo-pro", serif;
+    color: #811829;
+}
+
+.portret {
+    max-width: 50vw;
+    height: auto;
+    margin-left: 10vw;
+    align-content: center;
+    border-radius: 1000px;
+    
+}
+
+.main span {
+    font-family: Vollkorn;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 1em;
+    text-align: left;
+}
+
+ul {
+    font-size: 0.5em;
 }
